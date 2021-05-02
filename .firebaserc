@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "application-api-hop"
+  },
+  "targets": {
+    "application-api-hop": {
+      "hosting": {
+        "api-hop": [
+          "application-api-hop"
+        ]
+      }
+    }
+  }
+}

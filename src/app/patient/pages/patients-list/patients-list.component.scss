@@ -1,0 +1,66 @@
+th.mat-header-cell,
+td.mat-cell,
+td.mat-footer-cell {
+  padding: 0 20px;
+}
+
+.link:hover {
+  background-color: #fdf0d5;
+}
+a {
+  text-decoration: underline;
+  cursor: pointer;
+  color: rgb(219, 25, 35);
+}
+
+a:hover {
+  color: aqua;
+}
+
+.mat-fab.mat-accent {
+  background-color: cornflowerblue;
+}
+table {
+  width: 100%;
+  background-color: white;
+}
+
+.button {
+  width: 40%;
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.action {
+  cursor: pointer;
+}
+
+td {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+.mat-form-field {
+  width: 90%;
+  padding: 5px;
+  margin: 15px 0;
+}
+
+th {
+  color: white;
+  background-color: cornflowerblue;
+}
+
+.mat-progress-spinner {
+  margin: auto;
+}
+.wait {
+  background-color: white;
+}
+
+.wait ::ng-deep .mat-progress-spinner circle,
+.mat-spinner circle {
+  stroke: cornflowerblue;
+}

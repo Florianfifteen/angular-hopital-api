@@ -1,0 +1,20 @@
+<div class="email_container">
+  <div class="email">
+    <h2>Thank You for Signing up !</h2>
+
+    <div *ngIf="ngAuthService.userState as user">
+      <p class="text-center">
+        Confirmation mail has been sent to <strong>{{ user.email }}</strong
+        >.
+      </p>
+    </div>
+
+    <button
+      mat-raised-button
+      class="resend"
+      (click)="ngAuthService.SendVerificationMail()"
+    >
+      Resend Verification Email
+    </button>
+  </div>
+</div>

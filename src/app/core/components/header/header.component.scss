@@ -1,0 +1,66 @@
+.doctor {
+  background-color: #ff495c;
+}
+.patient {
+  background-color: cornflowerblue;
+}
+.home {
+  background-color: indigo;
+}
+.logo {
+  width: 68px;
+}
+svg {
+  width: 68px;
+  cursor: pointer;
+}
+.hospitalLogo {
+  fill: white;
+}
+
+.title {
+  text-align: center;
+  width: 100%;
+}
+
+.swap {
+  width: 50%;
+}
+
+a {
+  text-decoration: underline;
+  cursor: pointer;
+  color: rgb(219, 25, 35);
+}
+
+a:hover {
+  color: aqua;
+}
+
+button {
+  width: 33%;
+  margin: 10px;
+}
+.mat-toolbar-row {
+  margin-bottom: 10px;
+}
+.doctorsButton {
+  background-color: #ff495c;
+  color: white;
+}
+.patientsButton {
+  background-color: cornflowerblue;
+}
+
+.homeButton {
+  background-color: indigo;
+  color: white;
+}
+
+.mat-icon {
+  cursor: pointer;
+}
+
+.profile {
+  margin-right: 20px;
+}

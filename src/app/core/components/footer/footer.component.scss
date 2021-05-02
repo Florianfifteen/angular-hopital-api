@@ -1,0 +1,23 @@
+.footer {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+.title {
+  //width: 50%;
+}
+.doctor {
+  background-color: #ff495c;
+}
+.patient {
+  background-color: cornflowerblue;
+}
+.home {
+  background-color: indigo;
+}
+
+svg {
+  width: 100%;
+  fill: white;
+  cursor: pointer;
+}
